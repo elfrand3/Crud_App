@@ -1,3 +1,7 @@
 <resources>
-    <string name="app_name">CrudApp</string>
+    <string name="app_name">Crud App</string>
+
+    <string name="button">Klik Button</string>
+    <string name="jd">Hapus file</string>
+    <string name="pd">Apakah mau dihapus?</string>
 </resources>

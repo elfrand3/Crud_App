@@ -15,64 +15,85 @@
         <ImageView
             android:id="@+id/iv_avatar"
             android:layout_width="100dp"
-            android:layout_height="100dp"/>
+            android:layout_height="115dp"/>
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="vertical">
-
-            <TextView
-                android:layout_marginLeft="10dp"
-                android:id="@+id/iv_id"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textColor="@color/black"
-                android:text="ID"
-                android:textSize="18dp"
-                android:textStyle="bold" />
-
-            <!--            <TextView-->
-            <!--                android:id="@+id/tv_des"-->
-            <!--                android:layout_marginLeft="10dp"-->
-            <!--                android:text="Deskripsi"-->
-            <!--                android:textSize="14sp"-->
-            <!--                android:layout_width="wrap_content"-->
-            <!--                android:layout_height="wrap_content"/>-->
             <LinearLayout
-                android:layout_marginTop="20dp"
-                android:layout_marginLeft="10dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="horizontal">
-
-                <TextView
-                    android:id="@+id/iv_first_name"
-                    android:text="First Name"
-                    android:textSize="14sp"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"/>
+                android:orientation="vertical">
 
                 <TextView
                     android:layout_marginLeft="10dp"
-                    android:id="@+id/iv_last_name"
-                    android:text="Last Name"
+                    android:id="@+id/iv_id"
+                    android:layout_width="40dp"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:text="ID"
+                    android:textSize="18dp"
+                    android:textStyle="bold" />
+
+                <!--            <TextView-->
+                <!--                android:id="@+id/tv_des"-->
+                <!--                android:layout_marginLeft="10dp"-->
+                <!--                android:text="Deskripsi"-->
+                <!--                android:textSize="14sp"-->
+                <!--                android:layout_width="wrap_content"-->
+                <!--                android:layout_height="wrap_content"/>-->
+                <LinearLayout
+                    android:layout_marginTop="2dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/iv_first_name"
+                        android:text="First Name"
+                        android:textSize="14sp"
+                        android:layout_width="70dp"
+                        android:layout_height="wrap_content"/>
+
+                    <TextView
+                        android:layout_marginLeft="10dp"
+                        android:id="@+id/iv_last_name"
+                        android:text="Last Name"
+                        android:textSize="14sp"
+                        android:layout_width="70dp"
+                        android:layout_height="wrap_content"/>
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_marginTop="2dp"
+                    android:id="@+id/iv_email"
+                    android:layout_marginLeft="10dp"
+                    android:text="email"
                     android:textSize="14sp"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"/>
 
+                <LinearLayout
+                    android:layout_marginTop="2dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <ImageButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/edit"
+                        android:id="@+id/id_update"/>
+
+                    <ImageButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/delete"
+                        android:id="@+id/id_delete"/>
+                </LinearLayout>
+
             </LinearLayout>
 
-            <TextView
-                android:layout_marginTop="10dp"
-                android:id="@+id/iv_email"
-                android:layout_marginLeft="10dp"
-                android:text="email"
-                android:textSize="14sp"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"/>
-
-        </LinearLayout>
 
     </LinearLayout>
 
