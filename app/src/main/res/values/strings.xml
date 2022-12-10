@@ -4,4 +4,18 @@
     <string name="button">Klik Button</string>
     <string name="jd">Hapus file</string>
     <string name="pd">Apakah mau dihapus?</string>
+
+    <!--    spinner-->
+    <string-array name="planets_array">
+        <item>Anggota CommIT Mobile</item>
+        <item>Maz Sam</item>
+        <item>Maz Akbar</item>
+        <item>Maz Karim</item>
+        <item>Maz Lukman</item>
+        <item>Frand</item>
+        <item>Iqbal</item>
+        <item>Mamad</item>
+        <item>Alan</item>
+        <item>Bahri</item>
+    </string-array>
 </resources>

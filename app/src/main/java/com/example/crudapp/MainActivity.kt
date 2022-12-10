@@ -21,6 +21,13 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(binding.root)
 
+        val mcrs = binding.mRc
+        val sp = binding.mSpinner
+        val aps = binding.ApiSpin
+        mcrs.setOnClickListener{startActivity(Intent(this@MainActivity, MateriCRS::class.java))}
+        sp.setOnClickListener{startActivity(Intent(this@MainActivity, MateriSpinner::class.java))}
+        aps.setOnClickListener{startActivity(Intent(this@MainActivity, SpinnerApi2::class.java))}
+
         binding.icSave.setOnClickListener{
             if(binding.icUser.text.isEmpty()||binding.icPass.text.isEmpty()){
                 Toast.makeText(this, "Lengkapi data terlebih dahulu....", Toast.LENGTH_SHORT).show()

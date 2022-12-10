@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MateriCRS">
+
+    <TextView
+        android:id="@+id/minuman"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Minuman"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"/>
+
+    <RadioGroup
+        android:padding="10dp"
+        android:id="@+id/r_minuman"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/m_sg"
+            android:text="Soda Gila"/>
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/m_js"
+            android:text="Joshoa"/>
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/m_am"
+            android:text="Amer"/>
+
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/makanan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Makanan"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"/>
+
+
+    <CheckBox
+        android:layout_marginLeft="10dp"
+        android:id="@+id/bakso"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bakso"/>
+    <CheckBox
+        android:layout_marginLeft="10dp"
+        android:id="@+id/Soto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Soto"/>
+    <CheckBox
+        android:layout_marginLeft="10dp"
+        android:id="@+id/Seblak"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Seblak"/>
+
+
+    <Button
+        android:layout_marginTop="10dp"
+        android:id="@+id/pesan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pesan"
+        android:textSize="16sp"
+        android:gravity="center"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"/>
+    <TextView
+        android:id="@+id/menu_pesanan"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:gravity="center"
+        android:textSize="30sp"
+        android:text="Kosong"/>
+
+    <Button
+        android:layout_marginTop="10dp"
+        android:id="@+id/hapus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hapus"
+        android:textSize="16sp"
+        android:gravity="center"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"/>
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>
